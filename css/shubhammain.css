@@ -2162,3 +2162,15 @@ acronym { border-bottom:1px dotted #ccc; }
 		width: 400px; height:200px; margin: 0 auto
 	}
 }
+@media screen and  (max-width: 500px){
+	#container{
+		width: 300px; height: 230px; margin: 0 auto
+	}
+	.card.first .content .hero{
+		line-height: 1.2;
+	}
+	.card.third .features li p{
+		line-height: 1.2;
+	}
+}
+
