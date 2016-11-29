@@ -2162,7 +2162,7 @@ acronym { border-bottom:1px dotted #ccc; }
 		width: 400px; height:200px; margin: 0 auto
 	}
 }
-@media screen and  (max-width: 500px){
+@media screen and  (max-width: 600px){
 	#container{
 		width: 300px; height: 230px; margin: 0 auto
 	}
