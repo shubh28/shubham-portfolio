@@ -686,7 +686,7 @@ body .top-panel {
     width: 42%;
 }
 .card.first .content .hero {
-    color: rgba(26, 26, 26, 0.9);
+    color: #150606;
 }
 .card.first .content .features {
     padding-top: 10vh;
@@ -720,7 +720,7 @@ body .top-panel {
     width: 150px;
 }
 .card.first .content .details p {
-    color: rgba(26, 26, 26, 0.9);
+    color: #150606;
     font-size: 17px;
     line-height: 1.58823529;
     font-family: AvenirLTStd-Roman, "Helvetica Neue", Helvetica, Arial, sans-serif;
