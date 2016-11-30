@@ -1697,8 +1697,11 @@ body .top-panel {
 	color: #fff;
 	font-size: 3em;
 	text-shadow: 1px 1px 2px #a59292;
-	position: relative;
-	top: -50px;
+	/*position: relative;
+	top: -50px;*/
+    position: absolute;
+    top: 20px;
+    left: 10%;
 	text-align: left;
 
 }
@@ -2045,8 +2048,8 @@ body .top-panel {
     100% { opacity:1; }
 }
 .desc{
-	margin-top:3%; /*
-	text-align: right;*/
+	margin-top: 10%;
+    /*margin-top:3%; */
 }
 .desc hr{
 	width: 55%;
