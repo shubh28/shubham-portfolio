@@ -18,6 +18,7 @@
 <link rel='stylesheet' id='dm_shop_qards-css' href='css/shubhammain.css' type='text/css' media='all'/>
 <link rel='stylesheet' id='dm_shop_qards_responsive-css' href='css/shubham-responsive.css' type='text/css' media='all'/>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="perspectiveRules.css">
 <script type='text/javascript' src='js/1.min.js'></script>
 <script type='text/javascript' src='js/form.js'></script>
 <script type='text/javascript' src='js/easy.min.js'></script>
@@ -28,13 +29,18 @@
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script type='text/javascript' src='js/chart.js'></script>
+<script type="text/javascript" src="jquery.logosDistort.js"></script>
 <style type="text/css">
 
 </style>
 </head>
 <body class="stage0">
-    <div id="top-image">
-        <div class="overlay"></div>
+    <!-- <div id="top-image">
+        <div class="overlay"></div> -->
+        <div id="demo2">
+            <img src="images/background.jpg">
+            <div class="overlay"></div>
+        </div>
         <section class="zero">
             <div class="container">
                 <nav class="top-panel">
@@ -403,7 +409,7 @@
         </div>
         <div class="loading"><span></span></div>
         <div style="clear:both;"></div>
-    </div>
+    <!-- </div> -->
     <script type="text/javascript">
     $(window).load(function() {
 //         if($(window).width()>1300){
@@ -421,7 +427,7 @@
 //             });    
 //         }
         
-
+        $("#demo2").logosDistort();
         $(".element").typed({
             strings: ["self taught programmer.", "web designer.","web developer.","full stack javascript developer.","free thinker.","knowledge seeker.","enthusiast."],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
