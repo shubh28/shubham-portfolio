@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon-precomposed" href="images/mobile.png"/>
 <link rel="shortcut icon" href="fav.png"/>
 <title>Shubham Jain | Full Stack JavaScript Developer</title>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-latest.js"></script>
 <script type='text/javascript' src='js/jquery.min.js'></script>
 <script type="text/javascript" src="js/jquery.jigowatt.js"></script> 
 <link rel='stylesheet' id='dm_shop_qards_fonts-css' href='css/fonts.css' type='text/css' media='all'/>
@@ -405,21 +405,21 @@
         <div style="clear:both;"></div>
     </div>
     <script type="text/javascript">
-    $(document).ready(function() {
-        if($(window).width()>1300){
-            var movementStrength = 25;
-            var height = movementStrength / $(window).height();
-            var width = movementStrength / $(window).width();
-            $("#top-image").mousemove(function(e){
-                var pageX = e.pageX - ($(window).width() / 2);
-                var pageY = e.pageY - ($(window).height() / 2);
-                var newvalueX = width * pageX * -1 - 25;
-                var newvalueY = height * pageY * -1 - 50;
-                $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
-                // $('.text-editor-wrap').css("left", newvalueX+"px     ");
-                // $('.text-editor-wrap').css("top", newvalueX+"px     ");
-            });    
-        }
+    $(window).load(function() {
+//         if($(window).width()>1300){
+//             var movementStrength = 25;
+//             var height = movementStrength / $(window).height();
+//             var width = movementStrength / $(window).width();
+//             $("#top-image").mousemove(function(e){
+//                 var pageX = e.pageX - ($(window).width() / 2);
+//                 var pageY = e.pageY - ($(window).height() / 2);
+//                 var newvalueX = width * pageX * -1 - 25;
+//                 var newvalueY = height * pageY * -1 - 50;
+//                 $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+//                 // $('.text-editor-wrap').css("left", newvalueX+"px     ");
+//                 // $('.text-editor-wrap').css("top", newvalueX+"px     ");
+//             });    
+//         }
         
 
         $(".element").typed({

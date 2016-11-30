@@ -686,7 +686,7 @@ body .top-panel {
     width: 42%;
 }
 .card.first .content .hero {
-    color: rgba(26, 26, 26, 0.9);
+    color: #150606;
 }
 .card.first .content .features {
     padding-top: 10vh;
@@ -720,7 +720,7 @@ body .top-panel {
     width: 150px;
 }
 .card.first .content .details p {
-    color: rgba(26, 26, 26, 0.9);
+    color: #150606;
     font-size: 17px;
     line-height: 1.58823529;
     font-family: AvenirLTStd-Roman, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1311,7 +1311,7 @@ body .top-panel {
     stroke-width: 0;
 }
 .card.third .features li p {
-    color: rgba(26, 26, 26, 0.7);
+    color: #150606;
     font-family: AvenirLTStd-Roman, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .card.third .cell-center {
@@ -2162,4 +2162,14 @@ acronym { border-bottom:1px dotted #ccc; }
 		width: 400px; height:200px; margin: 0 auto
 	}
 }
-
+@media screen and  (max-width: 700px){
+	#container{
+		width: 300px; height: 230px; margin: 0 auto
+	}
+	.card.first .content .hero{
+		line-height: 1.2;
+	}
+	.card.third .features li p{
+		line-height: 1.2;
+	}
+}
