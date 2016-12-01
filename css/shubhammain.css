@@ -1499,7 +1499,7 @@ body .top-panel {
     -webkit-transform: translateY(-50vh);
 }
 .buynow .hero {
-    color: #b7a2a2;
+    color: #000;
     max-width: 630px;
     margin: 0 auto;
     font-family: AvenirLTStd-Roman, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1788,8 +1788,8 @@ body .top-panel {
 }
 .last{
 	padding: 10px;
-	color: #bb4b55;
-	border:3px solid #bb4b55;
+	color: #0e0e0e;
+	border:3px solid #0e0e0e;
 }
 .footer .share li svg {
 	height:42px;
@@ -2062,7 +2062,7 @@ body .top-panel {
 	font-size: 3em;
 }
 .desc span{
-	color: #bb4b55;
+	color: #0e0e0e;
 	font-family: 'Raleway-Thin';
 }
 /*.text-holder{
