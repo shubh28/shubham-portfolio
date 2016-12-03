@@ -2254,7 +2254,10 @@ acronym { border-bottom:1px dotted #ccc; }
 	}
 }
 
-
+.center{
+    max-width: 90%;
+    margin: auto;
+}
 .avatar-container {
     position: relative;
     display: inline-block;
